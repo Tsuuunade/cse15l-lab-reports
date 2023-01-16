@@ -1,8 +1,9 @@
 # Week 1 Lab Report
 **Step 1: Installing VScode**
-
+/
 Here's the link for the instructions about downloading VScode: https://code.visualstudio.com/. Since I've already had my VScode downloaded on my laptop, I skipped this step. However, for those who don't have VScode yet, remember to restrictly follow the steps and check whether you can open VScode. When it's installed on your laptop, you should be able to see an interface like the following picture.
-
+/
 ![屏幕截图 2023-01-15 165949](https://user-images.githubusercontent.com/122576524/212577536-590cde53-70db-43ed-b6b0-5f1e519352e7.png)
-
-**Step 2: Resetting the password**
+/
+**Step 2: Remotely Connecting**
+* CSE15L Account
