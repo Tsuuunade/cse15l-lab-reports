@@ -27,11 +27,12 @@ There are a bunch of things you need to get your remote connection. Steps includ
 
   You need to first install git here: https://gitforwindows.org/. Onced you've installed, you have to link the git to your VScode. How you can do this could be found   on the following website [[Using bash for Windows]](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994). After you've done, make sure you could see bash here:
   
+  
   ![03da39823663532cb6bff752ba56825](https://user-images.githubusercontent.com/122576524/212581363-9ac83820-d228-42bf-8856-314a6971e58e.jpg)
 
 
-  
-
 * log in to your account on your VScode
 
-
+  Open a new terminal in you VScode, type 'ssh cs15lwi23aus@ieng6.ucsd.edu' into the terminal, and remember to replace 'aus' with your own course-specific account. If you don't know your account yet, you should go beck and check the instructions under **Set up your CSE15L Account**.
+  
+  
