@@ -44,3 +44,5 @@ There are a bunch of things you need to get your remote connection. Steps includ
   
   ![屏幕截图 2023-01-15 175644](https://user-images.githubusercontent.com/122576524/212582635-a1638374-c5a5-48c8-9bb1-66a870262c1e.png)
 
+
+## Step 3: Trying Some Commands
