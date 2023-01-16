@@ -13,10 +13,13 @@ Here's the link for the instructions about downloading VScode: https://code.visu
 
 There are a bunch of things you need to get your remote connection. Steps include:
 
-* Set up your CSE15L Account
+* **Set up your CSE15L Account**
 
-  djaskldjasdjlksajd
-
+  Since the CSE department has already created an account for you, you can directly go to https://sdacs.ucsd.edu/~icc/index.php to check your account.
+  
+  
+  If you want to reset your password, which is what I've done, strictly follow the steps here: [Tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
+  
   djskdjlsjk
 * installing git for Windows
 * log in to your account on your VScode
