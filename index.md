@@ -14,6 +14,8 @@ Here's the link for the instructions about downloading VScode: https://code.visu
 There are a bunch of things you need to get your remote connection. Steps include:
 
 * Set up your CSE15L Account
+* djaskldjasdjlksajd
+* djskdjlsjk
 * installing git for Windows
 * log in to your account on your VScode
 
