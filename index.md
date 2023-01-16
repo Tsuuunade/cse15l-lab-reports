@@ -77,5 +77,3 @@ You could also try more commands such as ```pwd```, ```mkdir``` etc. You could t
 
 
 Finally, you could log out your account by typing ```exit``` in your terminal.
-
-Once you've finished trying those commands
