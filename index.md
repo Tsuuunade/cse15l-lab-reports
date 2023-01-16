@@ -49,25 +49,25 @@ There are a bunch of things you need to get your remote connection. Steps includ
 
 Now, you can try some commands on your terminal. Here are some commands that I tried on my own computer:
 
-*```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
+* ```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
 
 
   ![1](https://user-images.githubusercontent.com/122576524/212754211-1d2f0ab0-3aee-42f4-aa01-4fa5064f35c4.png)
 
 
-*```ls /home/linux/ieng6/cs15lwi23/cs15lwi23aus``` where ```aus``` should be replaced my your own course-specific account
+* ```ls /home/linux/ieng6/cs15lwi23/cs15lwi23aus``` where ```aus``` should be replaced my your own course-specific account
 
 
   ![2](https://user-images.githubusercontent.com/122576524/212754234-38e199ea-1a8e-4240-8956-bf0905d8769a.png)
 
 
-*```ls -lat```
+* ```ls -lat```
 
 
   ![3](https://user-images.githubusercontent.com/122576524/212754256-a4f5f1cc-a81d-453b-84b9-66ce26aefada.png)
 
 
-*```ls -a```
+* ```ls -a```
 
 
   ![4](https://user-images.githubusercontent.com/122576524/212754283-f0660e4a-b330-4534-86f1-a53d311cc0d5.png)
