@@ -15,9 +15,9 @@ There are a bunch of things you need to get your remote connection. Steps includ
 
 * Set up your CSE15L Account
 
-djaskldjasdjlksajd
+  djaskldjasdjlksajd
 
-djskdjlsjk
+  djskdjlsjk
 * installing git for Windows
 * log in to your account on your VScode
 
