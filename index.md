@@ -22,7 +22,7 @@ There are a bunch of things you need to get your remote connection. Steps includ
   
 * **Installing git for Windows**
 
-**Remark:If your are using a Mac, just ignore this step. This step is only for the one who's using Windows.**
+  **Remark:If your are using a Mac, just ignore this step. This step is only for the one who's using Windows.**
 
 
   You need to first install git here: https://gitforwindows.org/. Onced you've installed, you have to link the git to your VScode. How you can do this could be found   on the following website [Using bash for Windows](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994). After you've done, make sure you could see bash here:
