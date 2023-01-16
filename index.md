@@ -18,10 +18,15 @@ There are a bunch of things you need to get your remote connection. Steps includ
   Since the CSE department has already created an account for you, you can directly go to https://sdacs.ucsd.edu/~icc/index.php to check your account.
   
   
-  If you want to reset your password, which is what I've done, strictly follow the steps here: [Tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
+  If you want to reset your password, which is what I did, strictly follow the steps here: [How to Reset Your Password](https://docs.google.com/document/d/1hs7CyQeh-   MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
   
-  djskdjlsjk
-* installing git for Windows
+* **Installing git for Windows**
+
+**Remark:If your are using a Mac, just ignore this step. This step is only for the one who's using Windows.**
+
+
+You need to first install git here: https://gitforwindows.org/. Onced you've installed, you have to link the git to your VScode. How you can do this could be found on the following website [Using bash for Windows](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994). After you've done, make sure you could see bash here:
+
 * log in to your account on your VScode
 
 
