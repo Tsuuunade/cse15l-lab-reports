@@ -47,7 +47,7 @@ There are a bunch of things you need to get your remote connection. Steps includ
 
 ## Step 3: Trying Some Commands
 
-Now, you can try some commands on your terminal. Here are some commands that I tried on my own computer.
+Now, you can try some commands on your terminal. Here are some commands that I tried on my own computer:
 
 * ```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
 
