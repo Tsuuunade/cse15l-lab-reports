@@ -33,6 +33,14 @@ There are a bunch of things you need to get your remote connection. Steps includ
 
 * log in to your account on your VScode
 
-  Open a new terminal in you VScode, type ```ssh cs15lwi23aus@ieng6.ucsd.edu``` into the terminal, and remember to replace 'aus' with your own course-specific account. If you don't know your account yet, you should go beck and check the instructions under **Set up your CSE15L Account**.
+  Open a new terminal in you VScode, type ```ssh cs15lwi23aus@ieng6.ucsd.edu``` into the terminal, and remember to replace ```aus``` with your own course-specific account. If you don't know your account yet, you should go beck and check the instructions under **Set up your CSE15L Account**.
+
+
+  You should now enter your account password into the terminal. It's normal that you cannot see anything you're typing. If you're not confident in your typing, you can type your password somewhere else and copy paste it into the terminal.
   
   
+  If it's the first time you log in your server, there will be a message saying "Are you sure you want to connect?". Just type ```yes``` in the terminal. Then, you should see something like this
+  
+  
+  ![屏幕截图 2023-01-15 175644](https://user-images.githubusercontent.com/122576524/212582635-a1638374-c5a5-48c8-9bb1-66a870262c1e.png)
+
