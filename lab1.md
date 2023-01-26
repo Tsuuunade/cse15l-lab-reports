@@ -25,14 +25,14 @@ There are a bunch of things you need to get your remote connection. Steps includ
   **Remark:If your are using a Mac, just ignore this step. This step is only for the one who's using Windows.**
 
 
-  You need to first install git here: https://gitforwindows.org/. Onced you've installed, you have to link the git to your VScode. You need to follow these steps:
+  You need to first install git here: [[How to install Git]](https://gitforwindows.org/). Onced you've installed, you have to link the git to your VScode. You need to follow these steps:
   
-  1. At the top of your interface for VScode, you can find ```Terminal```.
-  2. Click it and then click ```New Terminal```.
-  3. Use ```Control```+```Shift```+```P``` to open the command palette.
-  4. Search for ```Select Default Profile```.
-  5. Click on ```Git Bash```.
-  6. Click the ```+``` in your terminal.
+  * At the top of your interface for VScode, you can find ```Terminal```.
+  * Click it and then click ```New Terminal```.
+  * Use ```Control```+```Shift```+```P``` to open the command palette.
+  * Search for ```Select Default Profile```.
+  * Click on ```Git Bash```.
+  * Click the ```+``` in your terminal.
   
   
   After you've done, you're all set and the page should be like this (pay attention to the red circle!)
