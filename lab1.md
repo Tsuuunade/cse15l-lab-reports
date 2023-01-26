@@ -65,7 +65,7 @@ Now, you can try some commands on your terminal. Here are some commands that I t
   ![1](https://user-images.githubusercontent.com/122576524/212754211-1d2f0ab0-3aee-42f4-aa01-4fa5064f35c4.png)
 
 
-* ```ls <directory>``` where ```<directory>``` is replaced by ```/home/linux/ieng6/cs15lwi23/cs15lwi23aus``` and```aus``` should be replaced my your own course-specific account. This command lists the content in the given ```<directory>```.
+* ```ls <directory>``` where ```<directory>``` is replaced by ```/home/linux/ieng6/cs15lwi23/cs15lwi23aus``` and ```aus``` should be replaced my your own course-specific account. This command lists the content in the given ```<directory>```.
 
 
   ![2](https://user-images.githubusercontent.com/122576524/212754234-38e199ea-1a8e-4240-8956-bf0905d8769a.png)
@@ -83,7 +83,7 @@ Now, you can try some commands on your terminal. Here are some commands that I t
   ![4](https://user-images.githubusercontent.com/122576524/212754283-f0660e4a-b330-4534-86f1-a53d311cc0d5.png)
 
 
-You could also try more commands such as ```pwd```, ```mkdir``` etc. You could try them both on your own computer and the remote computer. I didn't do this in my lab but I did try them later on. Those commands are pretty cool.
+I didn't run into errors for those command. Just follow the guide strictly and I believe you can also do it. You could also try more commands such as ```pwd```, ```mkdir``` etc. You could try them both on your own computer and the remote computer. I didn't do this in my lab but I did try them later on. Those commands are pretty cool.
 
 
 Finally, you could log out your account by typing ```exit``` in your terminal.
