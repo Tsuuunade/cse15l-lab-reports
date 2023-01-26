@@ -2,7 +2,7 @@
 ## Step 1: Installing VScode
 
 
-Here's the link for the instructions about downloading VScode: https://code.visualstudio.com/. Since I've already had my VScode downloaded on my laptop, I skipped this step. However, for those who don't have VScode yet, remember to restrictly follow the steps and check whether you can open VScode. When it's installed on your laptop, you should be able to see an interface like the following picture.
+Here's the link for the instructions about downloading VScode: [[How to Downloade VScode]](https://code.visualstudio.com/). Since I've already had my VScode downloaded on my laptop, I skipped this step. However, for those who don't have VScode yet, remember to restrictly follow the steps and check whether you can open VScode. When it's installed on your laptop, you should be able to see an interface like the following picture.
 
 
 ![屏幕截图 2023-01-15 165949](https://user-images.githubusercontent.com/122576524/212577536-590cde53-70db-43ed-b6b0-5f1e519352e7.png)
@@ -15,7 +15,7 @@ There are a bunch of things you need to get your remote connection. Steps includ
 
 * **Set up your CSE15L Account**
 
-  Since the CSE department has already created an account for you, you can directly go to https://sdacs.ucsd.edu/~icc/index.php to check your account.
+  Since the CSE department has already created an account for you, you can directly go to [[Account Setup]](https://sdacs.ucsd.edu/~icc/index.php) to check your account.
   
   
   If you want to reset your password, which is what I did, strictly follow the steps here: [[How to Reset Your Password]](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
@@ -25,7 +25,17 @@ There are a bunch of things you need to get your remote connection. Steps includ
   **Remark:If your are using a Mac, just ignore this step. This step is only for the one who's using Windows.**
 
 
-  You need to first install git here: https://gitforwindows.org/. Onced you've installed, you have to link the git to your VScode. How you can do this could be found   on the following website [[Using bash for Windows]](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994). After you've done, make sure you could see bash here:
+  You need to first install git here: https://gitforwindows.org/. Onced you've installed, you have to link the git to your VScode. You need to follow these steps:
+  
+  1. At the top of your interface for VScode, you can find ```Terminal```.
+  2. Click it and then click ```New Terminal```.
+  3. Use ```Control```+```Shift```+```P``` to open the command palette.
+  4. Search for ```Select Default Profile```.
+  5. Click on ```Git Bash```.
+  6. Click the ```+``` in your terminal.
+  
+  
+  After you've done, you're all set and the page should be like this (pay attention to the red circle!)
   
   
   ![03da39823663532cb6bff752ba56825](https://user-images.githubusercontent.com/122576524/212581363-9ac83820-d228-42bf-8856-314a6971e58e.jpg)
