@@ -18,7 +18,7 @@ There are a bunch of things you need to get your remote connection. Steps includ
   Since the CSE department has already created an account for you, you can directly go to [[Account Setup]](https://sdacs.ucsd.edu/~icc/index.php) to check your account.
   
   
-  If you want to reset your password, which is what I did, strictly follow the steps here: [[How to Reset Your Password]](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
+  If you want to reset your password, which is what I did, strictly follow the steps here: [[How to Reset Your Password]](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit).
   
 * **Installing git for Windows**
 
@@ -35,7 +35,7 @@ There are a bunch of things you need to get your remote connection. Steps includ
   * Click the ```+``` in your terminal.
   
   
-  After you've done, you're all set and the page should be like this (pay attention to the red circle!)
+  After you've done, you're all set and the page should be like this (**pay attention to the red circle!**)
   
   
   ![03da39823663532cb6bff752ba56825](https://user-images.githubusercontent.com/122576524/212581363-9ac83820-d228-42bf-8856-314a6971e58e.jpg)
@@ -59,25 +59,25 @@ There are a bunch of things you need to get your remote connection. Steps includ
 
 Now, you can try some commands on your terminal. Here are some commands that I tried on my own computer:
 
-* ```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
+* ```cat /home/linux/ieng6/cs15lwi23/public/hello.txt``` reads the file in the given directory, which is ```/home/linux/ieng6/cs15lwi23/public/hello.txt``` and write them to the standard output.
 
 
   ![1](https://user-images.githubusercontent.com/122576524/212754211-1d2f0ab0-3aee-42f4-aa01-4fa5064f35c4.png)
 
 
-* ```ls /home/linux/ieng6/cs15lwi23/cs15lwi23aus``` where ```aus``` should be replaced my your own course-specific account
+* ```ls <directory>``` where ```<directory>``` is replaced by ```/home/linux/ieng6/cs15lwi23/cs15lwi23aus``` and```aus``` should be replaced my your own course-specific account. This command lists the content in the given ```<directory>```.
 
 
   ![2](https://user-images.githubusercontent.com/122576524/212754234-38e199ea-1a8e-4240-8956-bf0905d8769a.png)
 
 
-* ```ls -lat```
+* ```ls -lat``` displays information about the user, size of the file, date of modification, and time of modification.
 
 
   ![3](https://user-images.githubusercontent.com/122576524/212754256-a4f5f1cc-a81d-453b-84b9-66ce26aefada.png)
 
 
-* ```ls -a```
+* ```ls -a``` displays hidden files and files starting with “.”.
 
 
   ![4](https://user-images.githubusercontent.com/122576524/212754283-f0660e4a-b330-4534-86f1-a53d311cc0d5.png)
