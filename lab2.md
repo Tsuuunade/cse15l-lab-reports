@@ -36,7 +36,7 @@ static int[] reversed(int[] arr) {
   }
 ```
 
-Thie piece of code is a buggy code. I'm gonna use it to demonstrate a failure-inducing input and a nonfailure-inducing input.
+This piece of code is a buggy code. I'm gonna use it to demonstrate a failure-inducing input and a nonfailure-inducing input.
 
 * **failure-inducing input**
   ```
