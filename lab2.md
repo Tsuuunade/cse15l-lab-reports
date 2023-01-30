@@ -37,3 +37,16 @@ static int[] reversed(int[] arr) {
 ```
 
 Thie piece of code is a buggy code. I'm gonna use it to demonstrate a failure-inducing input and a nonfailure-inducing input.
+
+* **failure-inducing input**
+  ```
+  int[] input1 = {2, 3, 4};
+  assertArrayEquals(new int[]{4, 3, 2}, ArrayExamples.reversed(input1));
+  ```
+  
+* **nonfailure-inducing input**
+  ```
+  int[] input1 = { };
+  assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  ```  
+  
