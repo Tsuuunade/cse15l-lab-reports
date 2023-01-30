@@ -69,3 +69,7 @@ newArray[i] = arr[arr.length - i - 1];
 ...
 return newArray;
 ```
+
+## Part 3
+
+I don't know how to start a webpage by java, and I'm shocked when I realize that I can modify the output on the webpage by just modifying the input url. Furthermore, I know how to use JUnit to test my code. I struggled a lot in cse11 when testing my code. With the help of JUnit right now, I can design my own testcases instead of submitting to gradescope over and over again.
