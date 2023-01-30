@@ -22,4 +22,18 @@ After these steps, I start to consider the output. I create an instance variable
 ![5](https://user-images.githubusercontent.com/122576524/215601156-eaf8e428-def9-47aa-ac79-05eb7585a8ab.png)
 
 
-Through the second screenshot, you can see that I change the argument from ```http://localhost:4000/add-message?s=How``` to ```http://localhost:4000/add-message?s=How are you```. Everything looks similar, but now the instance variable **List** stores two strings. Thus, when iterating through the for loop, the line inside runs 2 times and add ```Hello``` and ```How are you``` to **result**. And by using the string notation ```/n```, the output starts the second string in a new line.
+Through the second screenshot, you can see that I change the argument from ```http://localhost:4000/add-message?s=How``` to ```http://localhost:4000/add-message?s=How are you```. Everything looks similar, but now the instance variable **List** stores two strings because the ```add(string)``` method is called and the respective argument is ```How are you``` this time. Thus, when iterating through the for loop, the line inside runs 2 times and add ```Hello``` and ```How are you``` to **result**. And by using the string notation ```/n```, the output starts the second string in a new line.
+
+## Part 2
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+Thie piece of code is a buggy code. I'm gonna use it to demonstrate a failure-inducing input and a nonfailure-inducing input.
