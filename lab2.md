@@ -49,4 +49,23 @@ Thie piece of code is a buggy code. I'm gonna use it to demonstrate a failure-in
   int[] input1 = { };
   assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   ```  
-  
+
+This is what happens when I test the code with JUnit. Note that the test fails when we input the failure-inducing input.
+
+
+![8](https://user-images.githubusercontent.com/122576524/215605790-3872cd36-11a4-48f8-9c09-44d03c00f7cb.png)
+
+
+After trying some test cases, I find that only the empty list can pass the test, which means the code itself has significant mistake. Here is the bug:
+```
+arr[i] = newArray[arr.length - i - 1];
+...
+return arr;
+```
+
+Since I am assigning the values in newArray, which is all 0 by default, to arr, the first element of arr will become 0. This is not what I expected. Also remember that I'm returning a new array, which means I need to ```return newArray``` instead of ```arr```. The following is the fixed code:
+```
+newArray[i] = arr[arr.length - i - 1];
+...
+return newArray;
+```
