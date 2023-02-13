@@ -1,7 +1,11 @@
 # Lab 3
 
+**input**
 ```
 $ find non-fiction/  -type f
+```
+**Output**
+```
 non-fiction/OUP/Abernathy/ch1.txt
 non-fiction/OUP/Abernathy/ch14.txt
 non-fiction/OUP/Abernathy/ch15.txt
@@ -48,3 +52,6 @@ non-fiction/OUP/Rybczynski/ch1.txt
 non-fiction/OUP/Rybczynski/ch2.txt
 non-fiction/OUP/Rybczynski/ch3.txt
 ```
+
+**Explanation**
+This command search for all files (f for files) within the given directory (non-fiction/ in this case) and all its subdirectories. It's useful if we want to see all files within this directory, but it's mroe useful when there aren't so many files.
