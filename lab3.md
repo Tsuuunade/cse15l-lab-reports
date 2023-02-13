@@ -54,4 +54,22 @@ non-fiction/OUP/Rybczynski/ch3.txt
 ```
 
 **Explanation**
+
 This command search for all files (f for files) within the given directory (non-fiction/ in this case) and all its subdirectories. It's useful if we want to see all files within this directory, but it's mroe useful when there aren't so many files.
+
+
+**input**
+```
+$ find non-fiction/OUP/Berk/ -type f
+```
+**output**
+```
+non-fiction/OUP/Berk/ch1.txt
+non-fiction/OUP/Berk/ch2.txt
+non-fiction/OUP/Berk/CH4.txt
+non-fiction/OUP/Berk/ch7.txt
+```
+
+**Explanation**
+
+In this case we can see clearly see that there're four files in the given directory and what are the path for thoese files. Even there's a subdirectory in ```Berk```, we still have access to files inside it.
