@@ -354,4 +354,4 @@ For a small directory, we can clearly see the filenames in the terminal. We don'
 
 **Sources used**
 
-Overall, I only use [ChatGPT] (https://chat.openai.com/chat)
+Overall, I only use [ChatGPT](https://chat.openai.com/chat). I type in ```find command-line options or alternate ways to use the command``` and it provides me with many options to use the command ```find```, so I chosse 4 of them and put them into my lab report.
