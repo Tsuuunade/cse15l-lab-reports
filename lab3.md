@@ -351,3 +351,7 @@ non-fiction/OUP/Rybczynski/ch3.txt
 
 For a small directory, we can clearly see the filenames in the terminal. We don't have to look for them in the open editor.
 
+
+**Sources used**
+
+Overall, I only use [ChatGPT] (https://chat.openai.com/chat)
