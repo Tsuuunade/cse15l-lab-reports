@@ -4,6 +4,7 @@
 ```
 $ find non-fiction/  -type f
 ```
+
 **Output 1**
 ```
 non-fiction/OUP/Abernathy/ch1.txt
@@ -62,6 +63,7 @@ This command searches for all files (f for files) within the given directory (no
 ```
 $ find non-fiction/OUP/Berk/ -type f
 ```
+
 **Output 2**
 ```
 non-fiction/OUP/Berk/ch1.txt
@@ -79,6 +81,7 @@ In this case we can see clearly see that there're four files in the given direct
 ```
 $ find non-fiction/ -type d
 ```
+
 **Output 3**
 ```
 non-fiction/
@@ -207,3 +210,144 @@ This command searches for all files modified within the last 20 (we can change t
 ```
 $ find travel_guides/berlitz2/ -mtime -5
 ```
+
+**Output 6***
+```
+Nothing!!!
+```
+
+**Explanation 6**
+From the output, we can know that there's no files in the gien directory and files in its subdirectories that are modified within 5 days. This is a good way to check the time we modify those files.
+
+
+**Input 7**
+```
+$ find berlitz1/ -name "*.txt" -print
+```
+
+**Output 7**
+```
+berlitz1/HandRHawaii.txt
+berlitz1/HandRHongKong.txt
+berlitz1/HandRIbiza.txt
+berlitz1/HandRIsrael.txt
+berlitz1/HandRIstanbul.txt
+berlitz1/HandRJamaica.txt
+berlitz1/HandRJerusalem.txt
+berlitz1/HandRLakeDistrict.txt
+berlitz1/HandRLasVegas.txt
+berlitz1/HandRLisbon.txt
+berlitz1/HandRLosAngeles.txt
+berlitz1/HandRMadeira.txt
+berlitz1/HandRMadrid.txt
+berlitz1/HandRMallorca.txt
+berlitz1/HistoryDublin.txt
+berlitz1/HistoryEdinburgh.txt
+berlitz1/HistoryEgypt.txt
+berlitz1/HistoryFrance.txt
+berlitz1/HistoryFWI.txt
+berlitz1/HistoryGreek.txt
+berlitz1/HistoryHawaii.txt
+berlitz1/HistoryHongKong.txt
+berlitz1/HistoryIbiza.txt
+berlitz1/HistoryIndia.txt
+berlitz1/HistoryIsrael.txt
+berlitz1/HistoryIstanbul.txt
+berlitz1/HistoryItaly.txt
+berlitz1/HistoryJamaica.txt
+berlitz1/HistoryJapan.txt
+berlitz1/HistoryJerusalem.txt
+berlitz1/HistoryLakeDistrict.txt
+berlitz1/HistoryLasVegas.txt
+berlitz1/HistoryMadeira.txt
+berlitz1/HistoryMadrid.txt
+berlitz1/HistoryMalaysia.txt
+berlitz1/HistoryMallorca.txt
+berlitz1/IntroDublin.txt
+berlitz1/IntroEdinburgh.txt
+berlitz1/IntroEgypt.txt
+berlitz1/IntroFrance.txt
+berlitz1/IntroFWI.txt
+berlitz1/IntroGreek.txt
+berlitz1/IntroHongKong.txt
+berlitz1/IntroIbiza.txt
+berlitz1/IntroIndia.txt
+berlitz1/IntroIsrael.txt
+berlitz1/IntroIstanbul.txt
+berlitz1/IntroItaly.txt
+berlitz1/IntroJamaica.txt
+berlitz1/IntroJapan.txt
+berlitz1/IntroJerusalem.txt
+berlitz1/IntroLakeDistrict.txt
+berlitz1/IntroLasVegas.txt
+berlitz1/IntroLosAngeles.txt
+berlitz1/IntroMadeira.txt
+berlitz1/IntroMadrid.txt
+berlitz1/IntroMalaysia.txt
+berlitz1/IntroMallorca.txt
+berlitz1/JungleMalaysia.txt
+berlitz1/WhatToDublin.txt
+berlitz1/WhatToEdinburgh.txt
+berlitz1/WhatToEgypt.txt
+berlitz1/WhatToFrance.txt
+berlitz1/WhatToFWI.txt
+berlitz1/WhatToGreek.txt
+berlitz1/WhatToHawaii.txt
+berlitz1/WhatToHongKong.txt
+berlitz1/WhatToIbiza.txt
+berlitz1/WhatToIndia.txt
+berlitz1/WhatToIsrael.txt
+berlitz1/WhatToIstanbul.txt
+berlitz1/WhatToItaly.txt
+berlitz1/WhatToJamaica.txt
+berlitz1/WhatToJapan.txt
+berlitz1/WhatToLakeDistrict.txt
+berlitz1/WhatToLasVegas.txt
+berlitz1/WhatToLosAngeles.txt
+berlitz1/WhatToMadeira.txt
+berlitz1/WhatToMalaysia.txt
+berlitz1/WhatToMallorca.txt
+berlitz1/WhereToDublin.txt
+berlitz1/WhereToEdinburgh.txt
+berlitz1/WhereToEgypt.txt
+berlitz1/WhereToFrance.txt
+berlitz1/WhereToFWI.txt
+berlitz1/WhereToGreek.txt
+berlitz1/WhereToHawaii.txt
+berlitz1/WhereToHongKong.txt
+berlitz1/WhereToIbiza.txt
+berlitz1/WhereToIndia.txt
+berlitz1/WhereToIsrael.txt
+berlitz1/WhereToIstanbul.txt
+berlitz1/WhereToItaly.txt
+berlitz1/WhereToJapan.txt
+berlitz1/WhereToJerusalem.txt
+berlitz1/WhereToLakeDistrict.txt
+berlitz1/WhereToLosAngeles.txt
+berlitz1/WhereToMadeira.txt
+berlitz1/WhereToMadrid.txt
+berlitz1/WhereToMalaysia.txt
+berlitz1/WhereToMallorca.txt
+```
+
+**Explanation 7**
+
+This command searchs for all files with the ```.txt``` extension within the given directory (berlitz1 in this case) and its subdirectories, and print the names of the files found. It's useful since we can have access to all filenames.
+
+
+**Input 8**
+```
+$ find non-fiction/OUP/Rybczynski/ -name "*.txt" -print
+```
+
+**Output 8**
+```
+non-fiction/OUP/Rybczynski/ch1.txt
+non-fiction/OUP/Rybczynski/ch2.txt
+non-fiction/OUP/Rybczynski/ch3.txt
+```
+
+**Explanation 8**
+
+For a small directory, we can clearly see the filenames in the terminal. We don't have to look for them in the open editor.
+
