@@ -51,7 +51,7 @@ I change the place of my mouse to a new position.
 
 I change ```index1``` to ```index2```.
 
-* ```<ctrl-o><enter><ctrl-x>
+* ```<ctrl-o><enter><ctrl-x>```
 
 ![image](https://user-images.githubusercontent.com/122576524/221061773-0910fec1-ccdd-48f4-beb5-1a1d000b54eb.png)
 
