@@ -60,3 +60,8 @@ By pressing ```<ctrl-o>```, I save the file. I use ```<ctrl-x>``` to exit nano.
 
 **Commit and push the resulting change to your Github account**
 
+key pressed: ```<up><up><up><up><up><up>```, ```<up><up><up><up><up><up>```
+
+![image](https://user-images.githubusercontent.com/122576524/221380877-a4b9bb34-2122-499c-b2ea-ee7127203c7d.png)
+
+Those two commands are the 6 in the search history, so I press ```<up>``` for 6 times.
