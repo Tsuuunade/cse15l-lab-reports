@@ -102,12 +102,12 @@ Abernathy/ch1.txt:In the late 1940s, Bond Stores, the largest men’s clothing c
 
 **Explanation 5**
 
-This command searches for all files modified within the last 20 (we can change this number) days within the directory (travel_guides/berlitz2/ in this case) and all its subdirectories. We can use this command to find our most recent updated files for instance.
+This option searches for the pattern recursively in all files and subdirectories within the specified directory. Since there's only one sentence in all files and subdirectories for the given directory ```Abernathy/```, there's only one line of output.
 
 
 **Input 6**
 ```
-$ find travel_guides/berlitz2/ -mtime -5
+$ grep -r "berlitz" travel_guides/
 ```
 
 **Output 6***
@@ -116,141 +116,40 @@ Nothing!!!
 ```
 
 **Explanation 6**
-From the output, we can know that there's no files in the gien directory and files in its subdirectories that are modified within 5 days. This is a good way to check the time we modify those files.
+
+There's nothing in the files in the directory and its potential subdirectories. Only the names of the two subdirectories include ```berlitz```. So result is empty.
 
 
 **Input 7**
 ```
-$ find berlitz1/ -name "*.txt" -print
+$ grep -c ".txt" find-results.txt 
 ```
 
 **Output 7**
 ```
-berlitz1/HandRHawaii.txt
-berlitz1/HandRHongKong.txt
-berlitz1/HandRIbiza.txt
-berlitz1/HandRIsrael.txt
-berlitz1/HandRIstanbul.txt
-berlitz1/HandRJamaica.txt
-berlitz1/HandRJerusalem.txt
-berlitz1/HandRLakeDistrict.txt
-berlitz1/HandRLasVegas.txt
-berlitz1/HandRLisbon.txt
-berlitz1/HandRLosAngeles.txt
-berlitz1/HandRMadeira.txt
-berlitz1/HandRMadrid.txt
-berlitz1/HandRMallorca.txt
-berlitz1/HistoryDublin.txt
-berlitz1/HistoryEdinburgh.txt
-berlitz1/HistoryEgypt.txt
-berlitz1/HistoryFrance.txt
-berlitz1/HistoryFWI.txt
-berlitz1/HistoryGreek.txt
-berlitz1/HistoryHawaii.txt
-berlitz1/HistoryHongKong.txt
-berlitz1/HistoryIbiza.txt
-berlitz1/HistoryIndia.txt
-berlitz1/HistoryIsrael.txt
-berlitz1/HistoryIstanbul.txt
-berlitz1/HistoryItaly.txt
-berlitz1/HistoryJamaica.txt
-berlitz1/HistoryJapan.txt
-berlitz1/HistoryJerusalem.txt
-berlitz1/HistoryLakeDistrict.txt
-berlitz1/HistoryLasVegas.txt
-berlitz1/HistoryMadeira.txt
-berlitz1/HistoryMadrid.txt
-berlitz1/HistoryMalaysia.txt
-berlitz1/HistoryMallorca.txt
-berlitz1/IntroDublin.txt
-berlitz1/IntroEdinburgh.txt
-berlitz1/IntroEgypt.txt
-berlitz1/IntroFrance.txt
-berlitz1/IntroFWI.txt
-berlitz1/IntroGreek.txt
-berlitz1/IntroHongKong.txt
-berlitz1/IntroIbiza.txt
-berlitz1/IntroIndia.txt
-berlitz1/IntroIsrael.txt
-berlitz1/IntroIstanbul.txt
-berlitz1/IntroItaly.txt
-berlitz1/IntroJamaica.txt
-berlitz1/IntroJapan.txt
-berlitz1/IntroJerusalem.txt
-berlitz1/IntroLakeDistrict.txt
-berlitz1/IntroLasVegas.txt
-berlitz1/IntroLosAngeles.txt
-berlitz1/IntroMadeira.txt
-berlitz1/IntroMadrid.txt
-berlitz1/IntroMalaysia.txt
-berlitz1/IntroMallorca.txt
-berlitz1/JungleMalaysia.txt
-berlitz1/WhatToDublin.txt
-berlitz1/WhatToEdinburgh.txt
-berlitz1/WhatToEgypt.txt
-berlitz1/WhatToFrance.txt
-berlitz1/WhatToFWI.txt
-berlitz1/WhatToGreek.txt
-berlitz1/WhatToHawaii.txt
-berlitz1/WhatToHongKong.txt
-berlitz1/WhatToIbiza.txt
-berlitz1/WhatToIndia.txt
-berlitz1/WhatToIsrael.txt
-berlitz1/WhatToIstanbul.txt
-berlitz1/WhatToItaly.txt
-berlitz1/WhatToJamaica.txt
-berlitz1/WhatToJapan.txt
-berlitz1/WhatToLakeDistrict.txt
-berlitz1/WhatToLasVegas.txt
-berlitz1/WhatToLosAngeles.txt
-berlitz1/WhatToMadeira.txt
-berlitz1/WhatToMalaysia.txt
-berlitz1/WhatToMallorca.txt
-berlitz1/WhereToDublin.txt
-berlitz1/WhereToEdinburgh.txt
-berlitz1/WhereToEgypt.txt
-berlitz1/WhereToFrance.txt
-berlitz1/WhereToFWI.txt
-berlitz1/WhereToGreek.txt
-berlitz1/WhereToHawaii.txt
-berlitz1/WhereToHongKong.txt
-berlitz1/WhereToIbiza.txt
-berlitz1/WhereToIndia.txt
-berlitz1/WhereToIsrael.txt
-berlitz1/WhereToIstanbul.txt
-berlitz1/WhereToItaly.txt
-berlitz1/WhereToJapan.txt
-berlitz1/WhereToJerusalem.txt
-berlitz1/WhereToLakeDistrict.txt
-berlitz1/WhereToLosAngeles.txt
-berlitz1/WhereToMadeira.txt
-berlitz1/WhereToMadrid.txt
-berlitz1/WhereToMalaysia.txt
-berlitz1/WhereToMallorca.txt
+224
 ```
 
 **Explanation 7**
 
-This command searchs for all files with the ```.txt``` extension within the given directory (berlitz1 in this case) and its subdirectories, and print the names of the files found. It's useful since we can have access to all filenames.
+This option displays only the count of matching lines rather than the lines themselves. So if you're not that interested in the content of the lines, you can use this option. It's quiet useful here because I can know the amount of txt files easily.
 
 
 **Input 8**
 ```
-$ find non-fiction/OUP/Rybczynski/ -name "*.txt" -print
+$ grep -c "100" HandRLosAngeles.txt
 ```
 
 **Output 8**
 ```
-non-fiction/OUP/Rybczynski/ch1.txt
-non-fiction/OUP/Rybczynski/ch2.txt
-non-fiction/OUP/Rybczynski/ch3.txt
+2
 ```
 
 **Explanation 8**
 
-For a small directory, we can clearly see the filenames in the terminal. We don't have to look for them in the open editor.
+We can know that there are two lines match our expectation. This is a useful tool when you want to get a brief information about how much (big percentage or small) does a certain word exist in the file.
 
 
 **Sources used**
 
-Overall, I only use [ChatGPT](https://chat.openai.com/chat). I type in ```find command-line options or alternate ways to use the command``` and it provides me with many options to use the command ```find```, so I chosse 4 of them and put them into my lab report.
+Overall, I use [ChatGPT](https://chat.openai.com/chat). I type in ```can you give me some interesting command line options of command grep``` and it provides me with many options to use the command ```grep```, so I chosse 4 of them and put them into my lab report.
